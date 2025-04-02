@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+body {
+	font-size: 13px;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+::selection {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+::-moz-selection {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
